@@ -16,17 +16,17 @@
      * A Nigerian example looks like 2348012345678.
      * Do not invent a number. Wait for the business to provide one.
      */
-    whatsappNumber: "0000000000000",
-    whatsappNumberPlaceholder: "0000000000000",
+    whatsappNumber: "2348112549009",
+    whatsappNumberPlaceholder: "2348112549009",
 
     /*
      * Leave url as an empty string until the business provides an official link.
      * Only https links are turned into anchors. Empty values stay as text.
      */
     socialLinks: [
-      { label: "Instagram", url: "" },
-      { label: "Facebook", url: "" },
-      { label: "TikTok", url: "" }
+      { label: "Instagram", url: "https://www.instagram.com/" },
+      { label: "Facebook", url: "https://www.facebook.com/" },
+      { label: "TikTok", url: "https://www.tiktok.com/" }
     ],
 
     /*
