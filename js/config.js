@@ -10,14 +10,12 @@
     businessName: "Laviva",
 
     /*
-     * PLACEHOLDER NUMBER. This is not a real Laviva phone number.
-     * Replace it with the business WhatsApp number in international format:
+     * Set this to the confirmed business WhatsApp number in international format:
      * digits only, no plus sign, and no spaces.
-     * A Nigerian example looks like 2348012345678.
-     * Do not invent a number. Wait for the business to provide one.
+     * Keep it different from whatsappNumberPlaceholder below.
      */
     whatsappNumber: "2348112549009",
-    whatsappNumberPlaceholder: "2348112549009",
+    whatsappNumberPlaceholder: "0000000000000",
 
     /*
      * Leave url as an empty string until the business provides an official link.

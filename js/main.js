@@ -638,13 +638,13 @@
     var configured = LavivaWhatsApp.isConfigured();
     if (note) {
       note.textContent = configured
-        ? "The WhatsApp button opens a new chat with the number in js/config.js. You still need to press send. This website cannot tell whether the message was delivered."
-        : "The number in js/config.js is a placeholder. This page will prepare messages, but it will not open WhatsApp until a real number is added.";
+        ? "Have a quick question or prefer a more personal touch? Connect with us on WhatsApp for assistance with our collections, bespoke orders, and other enquiries."
+        : "Have a quick question or prefer a more personal touch? Connect with us on WhatsApp for assistance with our collections, bespoke orders, and other enquiries.";
     }
 
     var panelLink = document.querySelector(".contact-panel [data-whatsapp='general']");
     if (panelLink && !configured) {
-      panelLink.textContent = "Number not added yet";
+      panelLink.textContent = "Chat with Us on WhatsApp";
     }
 
     document.querySelectorAll("[data-whatsapp='general']").forEach(function (control) {
